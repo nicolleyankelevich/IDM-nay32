@@ -1,0 +1,7 @@
+html
+@font-face {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'Helvetica';
+    src: url();}
+{background-color:#e4ebf4;}
+.h {font: size 30px;}
+.p {font: size 16px;}
