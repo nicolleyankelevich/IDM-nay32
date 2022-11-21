@@ -1,7 +1,106 @@
-html
 @font-face {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'Helvetica';
-    src: url();}
-{background-color:#e4ebf4;}
-.h {font: size 30px;}
-.p {font: size 16px;}
+    font-family: 'DM Sans', 'Arial', 'Helvetica';
+    src: url(/Users/nicolleyankelevich/Library/Fonts/DMSans-Medium.ttf);
+}
+
+body {
+    background-color: #F5FFE6;
+}
+
+h1 {
+    font-family: 'DM Sans', 'Arial', 'Helvetica';
+    font-size: 6vw;
+    text-align: center;
+    color:#6B717E;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'DM Sans', 'Arial', 'Helvetica';
+    font-size: 4vw;
+    text-align: center;
+    color:#6B717E;
+}
+
+h3 {
+    color: rgb(15, 9, 69);
+}
+
+p {
+    padding: 0 7vw 0 7vw;
+    font-size: 3vw;
+    font-family: 'DM Sans', 'Arial', 'Helvetica';
+    text-align: center;
+    color:#6B717E;
+}
+
+#logo {
+    position: absolute;
+    height: 25vw;
+    width: 25vw;
+    left: 10vw;
+    top: 10vw;
+    filter: drop-shadow(2px 2px 3px rgb(0 0 0 / 0.05));
+}
+
+#headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    object-fit: cover;
+    width: 70vw;
+    height: 70vw;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 0.2);
+}
+
+.navbar {
+    display: flex;
+    font-weight: 100px;
+    font-family: 'DM Sans';
+    padding: 20px 10px 0px 10px;
+}
+
+.navbar > a {   /* Menu items in the nav bar */
+    color: #6B717E;
+    margin: auto;
+    font-size: 4vw;
+}
+
+#projectContainer {
+	display: grid;
+    grid-template-rows: 40vw 40vw 40vw;
+    width: 100%;
+}
+
+.projectLink {
+    position: relative;
+    margin: 2vw;
+    width: 40vw;
+    height: 40vw;
+    border: 1px solid black;
+    justify-self: end;
+}
+
+#proj1 {
+    justify-self: start;
+}
+
+#proj2 {
+    justify-self: end;
+}
+
+#proj3 {
+    justify-self: start;
+}
+
+/* colors: 
+
+#F0F5E3
+#FFA770
+#6B717E
+#A89EBD
+#FEC3DE 
+
+*/
