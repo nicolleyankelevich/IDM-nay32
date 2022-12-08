@@ -22,9 +22,7 @@ h2 {
     color:#6B717E;
 }
 
-h3 {
-    color: rgb(15, 9, 69);
-}
+
 
 p {
     padding: 0 7vw 0 7vw;
@@ -55,45 +53,140 @@ p {
     box-shadow: 1px 1px 10px rgb(0 0 0 / 0.2);
 }
 
+#headshot2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    margin-top: 40px;
+    width: 70vw;
+    height: 70vw;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 0.2);
+}
+
 .navbar {
     display: flex;
+    /* position: sticky; */
+    /* background-color: ; */
+    top: 0;
     font-weight: 100px;
     font-family: 'DM Sans';
     padding: 20px 10px 0px 10px;
+    z-index: 10;
 }
+
 
 .navbar > a {   /* Menu items in the nav bar */
     color: #6B717E;
     margin: auto;
     font-size: 4vw;
 }
+#resume {
+    display: block;
+    margin: 10vw auto 0 auto;
+    width: 80vw;
+    height: auto;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 0.2);
+}
+
+#contactMeTitle {
+margin-top: 10vw;
+}
+
+.contactme {
+    margin: 0px 20vw 4vw 20vw;
+    display: flex;
+    padding: 4vw;
+    background-color: #fec3de2e;
+    font-family: 'DM Sans';
+    border-radius: 4vw;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 0.1);
+}
+
+.contactme > a {   /* Menu items in the nav bar */
+    color: #6B717E;
+    margin: auto;
+    font-size: 2.4vw;
+}
+
+
+#steelsculpt1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 75%;
+    height: auto;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 0.2);
+}
+
+h3 {
+    color: rgb(15, 9, 69);
+    font-family: 'DM Sans', 'Arial', 'Helvetica';
+    font-size: 3vw;
+    text-align: center;
+    color:#6B717E;
+}
+
+h4 {
+    font-family: 'DM Sans', 'Arial', 'Helvetica';
+    font-size: 2vw;
+    text-align: center;
+    color:#6B717E;
+}
+
+h5 {
+    
+    font-family: 'DM Sans', 'Arial', 'Helvetica';
+    font-size: 1vw;
+    text-align: max;
+    color:#6B717E;
+}
+
+
+#vanity {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 75%;
+    height: auto;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 0.2);
+}
+
+#flowlamp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 30%;
+    height: 30%;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 0.2);
+}
 
 #projectContainer {
 	display: grid;
-    grid-template-rows: 40vw 40vw 40vw;
+    grid-template-rows: 55vw 55vw 55vw;
     width: 100%;
+    justify-content: center;
 }
 
 .projectLink {
+    height: 50vw;
+    width: 50vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+.projectLink > img {
     position: relative;
-    margin: 2vw;
-    width: 40vw;
-    height: 40vw;
-    border: 1px solid black;
-    justify-self: end;
+    left: 50%;
+    transform: translate(-50%, 0);
+    object-fit: cover;
+    height: 100%;
 }
 
-#proj1 {
-    justify-self: start;
-}
-
-#proj2 {
-    justify-self: end;
-}
-
-#proj3 {
-    justify-self: start;
-}
 
 /* colors: 
 
