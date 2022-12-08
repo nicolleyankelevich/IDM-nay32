@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="stylesheet.css" rel="stylesheet">
+      <title>Flow Lamp</title>
+      
+  </head>
+  
+  <body>
+
+    <div class="navbar">
+      <a href="ny-portfolio.html">Home</a>
+      <a href="ny-portfolio.html#scrollToPoint">Projects</a>
+      <a href="ny-resume.html">Resume</a>
+      <a href="ny-about-me.html">About Me</a>
+    </div>
+
+    <img id="flowlamp" src="https://cdn.jsdelivr.net/gh/nicolleyankelevich/IDMnay32@main/images/IDM-Lamp-Render.jpg" alt="Nicolle Yankelevich">
+      <h3>The Flow Lamp</h3>
+      <h4>A sculptural lamp inspired by postmodernist design, leading lines and reflective materials to create an evocative final form</h4>
+      <p>Our modern culture has conditioned our sense of self to be warped and distorted by media and social standards- this object means to be a physical embodiment of this effect.</p>
+        <p>The viewer’s expectations of their appearance must be subverted by the concave and undulating mirrored surfaces, as well as the light reflecting off these materials.</p>
+    
+  </body>
+
+  </html>
