@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="StyleSheet.css" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet">
     <title>Nicolle's Portfolio</title>
     
 </head>
-<div class="navbar">
-    <a href="NY-Portfolio.html">Home</a>
-    <a href="projectContainer">Projects</a><br />
-    <a href="#">Resume</a>
-    <a href="#">About Me</a>
-  </div>
+
+
  <body>
-    <img id="logo" src="https://cdn.jsdelivr.net/gh/nicolleyankelevich/IDMnay32@main/images/NY-LOGO.svg">
+    <div class="navbar">
+        <a href="ny-portfolio.html">Home</a>
+        <a href="#scrollToPoint">Projects</a>
+        <a href="ny-resume.html">Resume</a>
+        <a href="ny-about-me.html">About Me</a>
+      </div>
+
+    <img id="logo" src="https://cdn.jsdelivr.net/gh/nicolleyankelevich/IDMnay32@main/images/NY-LOGO.svg" alt="logo">
     <img id="headshot" src="https://cdn.jsdelivr.net/gh/nicolleyankelevich/IDMnay32@main/images/NY-Headshot-IDM.jpg" alt="Nicolle Yankelevich">
 
     <h1>Nicolle Yankelevich</h1>
     <h2>Design Statement</h2>
     <p>I dedicate my time to the details and apply this mindset to all my pieces, from furniture to fine art. I love
             deep-diving into my work and learning how to use my multidisceplenry skills in order to combine my interests. 
-            My work across all mediums displays attention to form and color, as well as the visceral impact on the viewer.</p1>
+            My work across all mediums displays attention to form and color, as well as the visceral impact on the viewer.</p>
+   
+    <h2 id="scrollToPoint">Projects</h2>  
+        <div id="projectContainer">
+        <a href="ny-project-page-1.html" class="projectLink" id="proj1"> 
+            <img src="https://cdn.jsdelivr.net/gh/nicolleyankelevich/IDMnay32@main/images/Steel-sculpt-3.jpeg" alt="steelsculpt">
+        </a>
+        <a href="ny-project-page-2.html" class="projectLink" id="proj2"> 
+            <img src="https://cdn.jsdelivr.net/gh/nicolleyankelevich/IDMnay32@main/images/vanityrender6.jpg" alt="vanity">
+        </a>
+        <a href="ny-project-page-3.html" class="projectLink" id="proj3"> 
+            <img src="https://cdn.jsdelivr.net/gh/nicolleyankelevich/IDMnay32@main/images/IDM-Lamp-Render.jpg" alt="flowlamp">
+        </a>
+    </div>
+ </body>
 
     
-    <div id="projectContainer">
-        <div class="sections">
-            <section id="projectContainer">
-        <h2>Projects</h2>  
-        <div class="projectLink" id="proj1"></div>
-        <div class="projectLink" id="proj2"></div>
-        <div class="projectLink" id="proj3"></div>
-    </div>
 
-  
-</body>
 </html>
