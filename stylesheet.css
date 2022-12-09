@@ -67,8 +67,6 @@ p {
 
 .navbar {
     display: flex;
-    /* position: sticky; */
-    /* background-color: ; */
     top: 0;
     font-weight: 100px;
     font-family: 'DM Sans';
