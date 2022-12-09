@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'DM Sans', 'Arial', 'Helvetica';
-    src: url(/Users/nicolleyankelevich/Library/Fonts/DMSans-Medium.ttf);
+    src: url(https://cdn.jsdelivr.net/gh/nicolleyankelevich/IDM-nay32@main/dmsans.zip);
 }
 
 body {
@@ -78,8 +78,9 @@ p {
 .navbar > a {   /* Menu items in the nav bar */
     color: #6B717E;
     margin: auto;
-    font-size: 4vw;
     font-family: 'DM Sans', 'Arial', 'Helvetica';
+    font-size: 4vw;
+
 }
 #resume {
     display: block;
@@ -98,12 +99,12 @@ margin-top: 10vw;
     display: flex;
     padding: 4vw;
     background-color: #fec3de2e;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', 'Arial', 'Helvetica';
     border-radius: 4vw;
     box-shadow: 1px 1px 10px rgb(0 0 0 / 0.1);
 }
 
-.contactme > a {   /* Menu items in the contact bar */
+.contactme > a {   /* Menu items in the nav bar */
     color: #6B717E;
     margin: auto;
     font-size: 2.4vw;
@@ -140,7 +141,6 @@ h5 {
     
     font-family: 'DM Sans', 'Arial', 'Helvetica';
     font-size: 1vw;
-    text-align: max;
     color:#6B717E;
 }
 
