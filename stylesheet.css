@@ -68,7 +68,7 @@ p {
 .navbar {
     display: flex;
     top: 0;
-    font-weight: 100px;
+    font-size: 100px;
     font-family: 'DM Sans';
     padding: 20px 10px 0px 10px;
     z-index: 10;
